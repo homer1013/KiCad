@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "Processor-rescue")(type "Legacy")(uri "${KIPRJMOD}/Processor-rescue.lib")(options "")(descr ""))
+  (lib (name "Temp-Controller-V1.0.0-rescue")(type "Legacy")(uri "${KIPRJMOD}/Temp Controller V1.0.0-rescue.lib")(options "")(descr ""))
+)

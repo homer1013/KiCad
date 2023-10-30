@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 47124-SamacSys_Parts
+F http://www.farnell.com/datasheets/606238.pdf
+$ENDCMP
+#
+$CMP MCP1812BT-033_LB-SamacSys_Parts
+F https://componentsearchengine.com//MCP1812BT-033_LB.pdf
+$ENDCMP
+#
+$CMP MCP9808T-E_MS-SamacSys_Parts
+F https://ww1.microchip.com/downloads/en/DeviceDoc/25095A.pdf
+$ENDCMP
+#
+$CMP NCP551SN50T1G-SamacSys_Parts
+F http://www.onsemi.com/pub/Collateral/NCP551-D.PDF
+$ENDCMP
+#
+$CMP NHD-C0216CiZ-FSW-FBW-3V3-SamacSys_Parts
+F https://componentsearchengine.com/Datasheets/1/NHD-C0216CiZ-FSW-FBW-3V3.pdf
+$ENDCMP
+#
+$CMP PIC18F27Q43-I_SP-SamacSys_Parts
+F https://componentsearchengine.com/Datasheets/2/PIC18F27Q43-I_SP.pdf
+$ENDCMP
+#
+#End Doc Library

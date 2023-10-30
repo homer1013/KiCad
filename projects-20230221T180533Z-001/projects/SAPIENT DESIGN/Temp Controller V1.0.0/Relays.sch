@@ -1,0 +1,251 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "2020-07-20"
+Rev "0"
+Comp "Spark Solutions"
+Comment1 "Relays w/Driver"
+Comment2 "COOL & HEAT Jacks"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 2020-07-16_16-50-41:JS1A-12V-F K1
+U 1 1 5F10B165
+P 1350 1850
+F 0 "K1" H 2250 2337 60  0000 C CNN
+F 1 "JS1A-12V-F" H 2250 2231 60  0000 C CNN
+F 2 "RELAY_JS_1A_PAN" H 2250 2190 60  0001 C CNN
+F 3 "" H 1350 1850 60  0000 C CNN
+	1    1350 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2020-07-16_16-50-41:JS1A-12V-F K2
+U 1 1 5F10DCBF
+P 4450 1850
+F 0 "K2" H 5350 2337 60  0000 C CNN
+F 1 "JS1A-12V-F" H 5350 2231 60  0000 C CNN
+F 2 "RELAY_JS_1A_PAN" H 5350 2190 60  0001 C CNN
+F 3 "" H 4450 1850 60  0000 C CNN
+	1    4450 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:ULN2003D1013TR U2
+U 1 1 5F15C8B5
+P 6950 3600
+F 0 "U2" H 8050 3865 50  0000 C CNN
+F 1 "ULN2003D1013TR" H 8050 3774 50  0000 C CNN
+F 2 "SOIC127P600X175-16N" H 9000 3700 50  0001 L CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00001244.pdf" H 9000 3600 50  0001 L CNN
+F 4 "ULN2003D1013TR, Darlington Transistor Array, NPN 0.5A 50V, Array 7 HFE:1000, 16-Pin, SO" H 9000 3500 50  0001 L CNN "Description"
+F 5 "1.75" H 9000 3400 50  0001 L CNN "Height"
+F 6 "511-ULN2003D1013TR" H 9000 3300 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ULN2003D1013TR?qs=YnPipOpXm6FQ98RZGZk5Pg%3D%3D" H 9000 3200 50  0001 L CNN "Mouser Price/Stock"
+F 8 "STMicroelectronics" H 9000 3100 50  0001 L CNN "Manufacturer_Name"
+F 9 "ULN2003D1013TR" H 9000 3000 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6950 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F16591A
+P 6550 4700
+F 0 "#PWR?" H 6550 4450 50  0001 C CNN
+F 1 "GND" H 6555 4527 50  0000 C CNN
+F 2 "" H 6550 4700 50  0001 C CNN
+F 3 "" H 6550 4700 50  0001 C CNN
+	1    6550 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 4300 6550 4300
+Wire Wire Line
+	6550 4300 6550 4700
+Wire Wire Line
+	850  1850 1350 1850
+Wire Wire Line
+	3150 1850 3150 1050
+Wire Wire Line
+	9400 1050 9400 3600
+Wire Wire Line
+	9400 3600 9150 3600
+Wire Wire Line
+	3150 1050 9400 1050
+Wire Wire Line
+	6250 1850 6250 1200
+Wire Wire Line
+	6250 1200 9650 1200
+Wire Wire Line
+	9650 1200 9650 3700
+Wire Wire Line
+	9650 3700 9150 3700
+$Comp
+L power:+12V #PWR?
+U 1 1 5F16BCA4
+P 9350 4750
+F 0 "#PWR?" H 9350 4600 50  0001 C CNN
+F 1 "+12V" H 9365 4923 50  0000 C CNN
+F 2 "" H 9350 4750 50  0001 C CNN
+F 3 "" H 9350 4750 50  0001 C CNN
+	1    9350 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 2350 1350 2350
+Wire Wire Line
+	1200 3350 4150 3350
+Connection ~ 1200 3350
+Wire Wire Line
+	1200 3350 1200 2350
+Wire Wire Line
+	9350 4750 9350 4300
+Text GLabel 6250 3600 0    50   Input ~ 0
+DO1
+Text GLabel 6250 3700 0    50   Input ~ 0
+DO2
+Wire Wire Line
+	6250 3600 6950 3600
+Wire Wire Line
+	6250 3700 6950 3700
+Wire Wire Line
+	3150 2550 3150 5050
+Wire Wire Line
+	6250 2850 6250 2550
+$Comp
+L Connector:Conn_WallSocket_Earth J1
+U 1 1 5F17AD59
+P 3150 5250
+F 0 "J1" H 3404 5261 50  0000 L CNN
+F 1 "Conn_WallSocket_Earth" H 3404 5170 50  0000 L CNN
+F 2 "" H 2850 5350 50  0001 C CNN
+F 3 "~" H 2850 5350 50  0001 C CNN
+	1    3150 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_WallSocket_Earth J2
+U 1 1 5F17E62F
+P 4700 5250
+F 0 "J2" H 4954 5261 50  0000 L CNN
+F 1 "Conn_WallSocket_Earth" H 4954 5170 50  0000 L CNN
+F 2 "" H 4400 5350 50  0001 C CNN
+F 3 "~" H 4400 5350 50  0001 C CNN
+	1    4700 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 6350 2750 6350
+Wire Wire Line
+	4300 6350 4300 5250
+Wire Wire Line
+	4300 5250 4500 5250
+Wire Wire Line
+	2750 6350 2750 5250
+Wire Wire Line
+	2750 5250 2950 5250
+Connection ~ 2750 6350
+Wire Wire Line
+	2750 6350 4300 6350
+Wire Wire Line
+	4500 5050 4500 2850
+Wire Wire Line
+	4500 2850 6250 2850
+$Comp
+L Connector:Conn_WallPlug_Earth P1
+U 1 1 5F186008
+P 900 6250
+F 0 "P1" H 967 6575 50  0000 C CNN
+F 1 "Conn_WallPlug_Earth" H 967 6484 50  0000 C CNN
+F 2 "" H 1300 6250 50  0001 C CNN
+F 3 "~" H 1300 6250 50  0001 C CNN
+	1    900  6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 6550 2950 6550
+Wire Wire Line
+	4500 6550 4500 5450
+Wire Wire Line
+	2950 5450 2950 6550
+Connection ~ 2950 6550
+Wire Wire Line
+	2950 6550 4500 6550
+Wire Wire Line
+	1200 3350 1200 5300
+$Comp
+L Device:Fuse F1
+U 1 1 5F190D37
+P 1200 5450
+F 0 "F1" H 1260 5496 50  0000 L CNN
+F 1 "250V, 10A" H 1260 5405 50  0000 L CNN
+F 2 "" V 1130 5450 50  0001 C CNN
+F 3 "~" H 1200 5450 50  0001 C CNN
+	1    1200 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 5600 1200 6150
+$Comp
+L Device:C C1
+U 1 1 5F160806
+P 9900 4300
+F 0 "C1" V 10152 4300 50  0000 C CNN
+F 1 ".1uF" V 10061 4300 50  0000 C CNN
+F 2 "" H 9938 4150 50  0001 C CNN
+F 3 "~" H 9900 4300 50  0001 C CNN
+	1    9900 4300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9150 4300 9350 4300
+Connection ~ 9350 4300
+Wire Wire Line
+	9350 4300 9750 4300
+Wire Wire Line
+	10050 4300 10400 4300
+$Comp
+L power:GND #PWR?
+U 1 1 5F1635AF
+P 10400 4300
+F 0 "#PWR?" H 10400 4050 50  0001 C CNN
+F 1 "GND" H 10405 4127 50  0000 C CNN
+F 2 "" H 10400 4300 50  0001 C CNN
+F 3 "" H 10400 4300 50  0001 C CNN
+	1    10400 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F1719AB
+P 850 1850
+F 0 "#PWR?" H 850 1600 50  0001 C CNN
+F 1 "GND" H 855 1677 50  0000 C CNN
+F 2 "" H 850 1850 50  0001 C CNN
+F 3 "" H 850 1850 50  0001 C CNN
+	1    850  1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F173151
+P 3900 1850
+F 0 "#PWR?" H 3900 1600 50  0001 C CNN
+F 1 "GND" H 3905 1677 50  0000 C CNN
+F 2 "" H 3900 1850 50  0001 C CNN
+F 3 "" H 3900 1850 50  0001 C CNN
+	1    3900 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 1850 4450 1850
+Wire Wire Line
+	4450 2350 4150 2350
+Wire Wire Line
+	4150 2350 4150 3350
+$EndSCHEMATC

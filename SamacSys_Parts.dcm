@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP MLBAWT-A1-0000-000W51
+D Cree MLBAWT-A1-0000-000W51, XLamp ML-B Series White LED, 6500K,, Square Lens SMD Package
+K
+F https://componentsearchengine.com/Datasheets/1/MLBAWT-A1-0000-000W51.pdf
+$ENDCMP
+#
+$CMP VLMU3100-GS08
+D LED Uni-Color Violet 405nm LED Uni-Color Violet 405nm
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA2/205149.pdf
+$ENDCMP
+#
+$CMP CLQ6B-TKW-S1L1R1H1TBB7935BB3
+D High Power LEDs - Multi-Colour RGB - White SMD 5050Case Size LED
+K
+F https://assets.cree-led.com/a/ds/h/HB-CLQ6B-TKW.pdf
+$ENDCMP
+#
+$CMP ASMG-PT00-00001
+D High Power LEDs - Multi-Color 1W Tri-color High Power LED
+K
+F https://docs.broadcom.com/docs/ASMG-PT00-DS100
+$ENDCMP
+#
+#End Doc Library

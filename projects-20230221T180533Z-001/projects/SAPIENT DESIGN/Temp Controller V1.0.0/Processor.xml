@@ -1,0 +1,1051 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Homer\Documents\KiCad Projects\Temp Controller V1.0.0\Processor.kicad_sch</source>
+    <date>7/5/2022 9:57:48 AM</date>
+    <tool>Eeschema (6.0.6)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company>Spark Solutions</company>
+        <rev>0</rev>
+        <date>2020-07-20</date>
+        <source>Processor.kicad_sch</source>
+        <comment number="1" value="Processor"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>Battery</value>
+      <libsource lib="Device" part="Battery" description="Multiple-cell battery"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/Homer/Documents/KiCad Projects/Temp Controller V1.0.0/Processor.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f1c5e7f</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>.1uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/Homer/Documents/KiCad Projects/Temp Controller V1.0.0/Processor.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f77544b</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>.1uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/Homer/Documents/KiCad Projects/Temp Controller V1.0.0/Processor.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f76c8a2</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>.1uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/Homer/Documents/KiCad Projects/Temp Controller V1.0.0/Processor.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f6c9868</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>.1uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/Homer/Documents/KiCad Projects/Temp Controller V1.0.0/Processor.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f1ac9a5</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>.1uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/Homer/Documents/KiCad Projects/Temp Controller V1.0.0/Processor.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f6ff7a6</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>.1uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/Homer/Documents/KiCad Projects/Temp Controller V1.0.0/Processor.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f6f3f8f</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/Homer/Documents/KiCad Projects/Temp Controller V1.0.0/Processor.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f4a74fb</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/Homer/Documents/KiCad Projects/Temp Controller V1.0.0/Processor.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f4b9278</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/Homer/Documents/KiCad Projects/Temp Controller V1.0.0/Processor.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f4c0d72</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>B150-E3</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>http://www.vishay.com/docs/88946/b120.pdf</datasheet>
+      <libsource lib="Diode" part="B150-E3" description="50V 1A Schottky Barrier Rectifier Diode, SMA(DO-214AC)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/Homer/Documents/KiCad Projects/Temp Controller V1.0.0/Processor.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f214116</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>B150-E3</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>http://www.vishay.com/docs/88946/b120.pdf</datasheet>
+      <libsource lib="Diode" part="B150-E3" description="50V 1A Schottky Barrier Rectifier Diode, SMA(DO-214AC)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/Homer/Documents/KiCad Projects/Temp Controller V1.0.0/Processor.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f22a878</tstamps>
+    </comp>
+    <comp ref="DS1">
+      <value>NHD-C0216CiZ-FSW-FBW-3V3</value>
+      <footprint>NHD-C0216CIZ-FSW-FBW-3V3</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/NHD-C0216CiZ-FSW-FBW-3V3.pdf</datasheet>
+      <fields>
+        <field name="Description">LCD Character Display Modules &amp; Accessories FSTN (+) Transfl 56.0 x 25.3 x 5.5</field>
+        <field name="Manufacturer_Name">Newhaven Display</field>
+        <field name="Manufacturer_Part_Number">NHD-C0216CiZ-FSW-FBW-3V3</field>
+        <field name="Mouser Part Number">763-C0216CIZFSWFBW3V</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Newhaven-Display/NHD-C0216CiZ-FSW-FBW-3V3?qs=Vb5qD4CGh4kMzks2c1g3mA%3D%3D</field>
+      </fields>
+      <libsource lib="Processor-rescue" part="NHD-C0216CiZ-FSW-FBW-3V3-SamacSys_Parts" description=""/>
+      <property name="Description" value="LCD Character Display Modules &amp; Accessories FSTN (+) Transfl 56.0 x 25.3 x 5.5"/>
+      <property name="Height" value=""/>
+      <property name="Mouser Part Number" value="763-C0216CIZFSWFBW3V"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Newhaven-Display/NHD-C0216CiZ-FSW-FBW-3V3?qs=Vb5qD4CGh4kMzks2c1g3mA%3D%3D"/>
+      <property name="Manufacturer_Name" value="Newhaven Display"/>
+      <property name="Manufacturer_Part_Number" value="NHD-C0216CiZ-FSW-FBW-3V3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/Homer/Documents/KiCad Projects/Temp Controller V1.0.0/Processor.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f1fee43</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>MCP9808T-E_MS</value>
+      <footprint>SOP65P490X110-8N</footprint>
+      <datasheet>https://ww1.microchip.com/downloads/en/DeviceDoc/25095A.pdf</datasheet>
+      <fields>
+        <field name="Description">Microchip MCP9808T-E/MS, Temperature Converter -40  +125 C +/-1C Serial-I2C, SMBus, 8-Pin MSOP</field>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">MCP9808T-E/MS</field>
+        <field name="Mouser Part Number">579-MCP9808T-E/MS</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP9808T-E-MS?qs=fgHA1UgJI8BYolGts7svKQ%3D%3D</field>
+      </fields>
+      <libsource lib="Processor-rescue" part="MCP9808T-E_MS-SamacSys_Parts" description=""/>
+      <property name="Description" value="Microchip MCP9808T-E/MS, Temperature Converter -40  +125 C +/-1C Serial-I2C, SMBus, 8-Pin MSOP"/>
+      <property name="Height" value="1.1"/>
+      <property name="Mouser Part Number" value="579-MCP9808T-E/MS"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP9808T-E-MS?qs=fgHA1UgJI8BYolGts7svKQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="Microchip"/>
+      <property name="Manufacturer_Part_Number" value="MCP9808T-E/MS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/Homer/Documents/KiCad Projects/Temp Controller V1.0.0/Processor.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f1f1dfe</tstamps>
+    </comp>
+    <comp ref="IC2">
+      <value>MCP9808T-E_MS</value>
+      <footprint>SOP65P490X110-8N</footprint>
+      <datasheet>https://ww1.microchip.com/downloads/en/DeviceDoc/25095A.pdf</datasheet>
+      <fields>
+        <field name="Description">Microchip MCP9808T-E/MS, Temperature Converter -40  +125 C +/-1C Serial-I2C, SMBus, 8-Pin MSOP</field>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">MCP9808T-E/MS</field>
+        <field name="Mouser Part Number">579-MCP9808T-E/MS</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP9808T-E-MS?qs=fgHA1UgJI8BYolGts7svKQ%3D%3D</field>
+      </fields>
+      <libsource lib="Processor-rescue" part="MCP9808T-E_MS-SamacSys_Parts" description=""/>
+      <property name="Description" value="Microchip MCP9808T-E/MS, Temperature Converter -40  +125 C +/-1C Serial-I2C, SMBus, 8-Pin MSOP"/>
+      <property name="Height" value="1.1"/>
+      <property name="Mouser Part Number" value="579-MCP9808T-E/MS"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP9808T-E-MS?qs=fgHA1UgJI8BYolGts7svKQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="Microchip"/>
+      <property name="Manufacturer_Part_Number" value="MCP9808T-E/MS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/Homer/Documents/KiCad Projects/Temp Controller V1.0.0/Processor.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f1f063f</tstamps>
+    </comp>
+    <comp ref="IC3">
+      <value>PIC18F27Q43-I_SP</value>
+      <footprint>DIP794W56P254L3486H508Q28N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/PIC18F27Q43-I_SP.pdf</datasheet>
+      <fields>
+        <field name="Description">8-bit Microcontrollers - MCU 128KB Flash, 8KB RAM, 1KB EEPROM, 12b ADC2, 5b DAC, Comp, PWM, CCP, CWG, HLT, WWDT, SCAN/CRC, ZCD, PPS, EUSART, SPI/I2C, IDLE/DOZE/PMD</field>
+        <field name="Height">5.08</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">PIC18F27Q43-I/SP</field>
+        <field name="Mouser Part Number">579-PIC18F27Q43-I/SP</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/PIC18F27Q43-I-SP?qs=T3oQrply3y9%2F3lp5qsrz4w%3D%3D</field>
+      </fields>
+      <libsource lib="Processor-rescue" part="PIC18F27Q43-I_SP-SamacSys_Parts" description=""/>
+      <property name="Description" value="8-bit Microcontrollers - MCU 128KB Flash, 8KB RAM, 1KB EEPROM, 12b ADC2, 5b DAC, Comp, PWM, CCP, CWG, HLT, WWDT, SCAN/CRC, ZCD, PPS, EUSART, SPI/I2C, IDLE/DOZE/PMD"/>
+      <property name="Height" value="5.08"/>
+      <property name="Mouser Part Number" value="579-PIC18F27Q43-I/SP"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Microchip-Technology/PIC18F27Q43-I-SP?qs=T3oQrply3y9%2F3lp5qsrz4w%3D%3D"/>
+      <property name="Manufacturer_Name" value="Microchip"/>
+      <property name="Manufacturer_Part_Number" value="PIC18F27Q43-I/SP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/Homer/Documents/KiCad Projects/Temp Controller V1.0.0/Processor.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f1ecef5</tstamps>
+    </comp>
+    <comp ref="IC4">
+      <value>MCP1812BT-033_LB</value>
+      <footprint>SOT65P210X110-3N</footprint>
+      <datasheet>https://componentsearchengine.com//MCP1812BT-033_LB.pdf</datasheet>
+      <fields>
+        <field name="Description">LDO Voltage Regulators Ultra Low Iq LDO</field>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">MCP1812BT-033/LB</field>
+        <field name="Mouser Part Number">579-MCP1812BT-033/LB</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP1812BT-033-LB?qs=byeeYqUIh0OAvmgcjtWJGQ%3D%3D</field>
+      </fields>
+      <libsource lib="Processor-rescue" part="MCP1812BT-033_LB-SamacSys_Parts" description=""/>
+      <property name="Description" value="LDO Voltage Regulators Ultra Low Iq LDO"/>
+      <property name="Height" value="1.1"/>
+      <property name="Mouser Part Number" value="579-MCP1812BT-033/LB"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP1812BT-033-LB?qs=byeeYqUIh0OAvmgcjtWJGQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="Microchip"/>
+      <property name="Manufacturer_Part_Number" value="MCP1812BT-033/LB"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/Homer/Documents/KiCad Projects/Temp Controller V1.0.0/Processor.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f1f8294</tstamps>
+    </comp>
+    <comp ref="IC5">
+      <value>NCP551SN50T1G</value>
+      <footprint>SOT95P275X110-5N</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/NCP551-D.PDF</datasheet>
+      <fields>
+        <field name="Description">ON Semiconductor NCP551SN50T1G, LDO Voltage Regulator, 150mA, 5 V 2%, 0  12 Vin, 5-Pin TSOP</field>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">ON Semiconductor</field>
+        <field name="Manufacturer_Part_Number">NCP551SN50T1G</field>
+        <field name="Mouser Part Number">863-NCP551SN50T1G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/NCP551SN50T1G?qs=%2FugrpAKHX8qYwrg%2F5Smfsg%3D%3D</field>
+      </fields>
+      <libsource lib="Processor-rescue" part="NCP551SN50T1G-SamacSys_Parts" description=""/>
+      <property name="Description" value="ON Semiconductor NCP551SN50T1G, LDO Voltage Regulator, 150mA, 5 V 2%, 0  12 Vin, 5-Pin TSOP"/>
+      <property name="Height" value="1.1"/>
+      <property name="Mouser Part Number" value="863-NCP551SN50T1G"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/NCP551SN50T1G?qs=%2FugrpAKHX8qYwrg%2F5Smfsg%3D%3D"/>
+      <property name="Manufacturer_Name" value="ON Semiconductor"/>
+      <property name="Manufacturer_Part_Number" value="NCP551SN50T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/Homer/Documents/KiCad Projects/Temp Controller V1.0.0/Processor.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f1f61fe</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>SCHA4B0419</value>
+      <footprint>SCHA4B0419</footprint>
+      <fields>
+        <field name="Description">Memory Card Connectors</field>
+        <field name="Manufacturer_Name">ALPS</field>
+        <field name="Manufacturer_Part_Number">SCHA4B0419</field>
+        <field name="Mouser Part Number">688-SCHA4B0419</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/ALPS/SCHA4B0419?qs=9Bj94LTQhPBSHliECEbqJw%3D%3D</field>
+      </fields>
+      <libsource lib="Processor-rescue" part="SCHA4B0419-SamacSys_Parts" description=""/>
+      <property name="Description" value="Memory Card Connectors"/>
+      <property name="Height" value=""/>
+      <property name="Mouser Part Number" value="688-SCHA4B0419"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/ALPS/SCHA4B0419?qs=9Bj94LTQhPBSHliECEbqJw%3D%3D"/>
+      <property name="Manufacturer_Name" value="ALPS"/>
+      <property name="Manufacturer_Part_Number" value="SCHA4B0419"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/Homer/Documents/KiCad Projects/Temp Controller V1.0.0/Processor.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f1f47ea</tstamps>
+    </comp>
+    <comp ref="PS1">
+      <value>47124</value>
+      <footprint>47124</footprint>
+      <datasheet>http://www.farnell.com/datasheets/606238.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">47124</field>
+        <field name="Description">AC/DC PCB Mount Power Supply, Switch Mode, Adjustable, Fixed, 85 V, 265 V, 2.5 W, 12 V, 210 mA RoHS Compliant: Yes</field>
+        <field name="Height">22.3</field>
+        <field name="Manufacturer_Name">MYRRA</field>
+        <field name="Manufacturer_Part_Number">47124</field>
+      </fields>
+      <libsource lib="Processor-rescue" part="47124-SamacSys_Parts" description=""/>
+      <property name="Description" value="AC/DC PCB Mount Power Supply, Switch Mode, Adjustable, Fixed, 85 V, 265 V, 2.5 W, 12 V, 210 mA RoHS Compliant: Yes"/>
+      <property name="Height" value="22.3"/>
+      <property name="Manufacturer_Name" value="MYRRA"/>
+      <property name="Manufacturer_Part_Number" value="47124"/>
+      <property name="Arrow Part Number" value="47124"/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/Homer/Documents/KiCad Projects/Temp Controller V1.0.0/Processor.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f1eac60</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>3.3K</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/Homer/Documents/KiCad Projects/Temp Controller V1.0.0/Processor.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f24236e</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>3.3K</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/Homer/Documents/KiCad Projects/Temp Controller V1.0.0/Processor.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f241aa7</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>3.3K</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/Homer/Documents/KiCad Projects/Temp Controller V1.0.0/Processor.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f50b4d1</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>3.3K</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/Homer/Documents/KiCad Projects/Temp Controller V1.0.0/Processor.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f50ac09</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>3.3K</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/Homer/Documents/KiCad Projects/Temp Controller V1.0.0/Processor.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f509f38</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10K</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/Homer/Documents/KiCad Projects/Temp Controller V1.0.0/Processor.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f2be73c</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10K</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/Homer/Documents/KiCad Projects/Temp Controller V1.0.0/Processor.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f2bf19f</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10K</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/Homer/Documents/KiCad Projects/Temp Controller V1.0.0/Processor.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f2c7688</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>10K</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/Homer/Documents/KiCad Projects/Temp Controller V1.0.0/Processor.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f20f9d4</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>15K</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/Homer/Documents/KiCad Projects/Temp Controller V1.0.0/Processor.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f2174f4</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>10K</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/Homer/Documents/KiCad Projects/Temp Controller V1.0.0/Processor.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f2bd802</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>14K</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/Homer/Documents/KiCad Projects/Temp Controller V1.0.0/Processor.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f1d0a1e</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>30.1K</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/Homer/Documents/KiCad Projects/Temp Controller V1.0.0/Processor.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f1cf409</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/Homer/Documents/KiCad Projects/Temp Controller V1.0.0/Processor.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f19c029</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_Push</value>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/Homer/Documents/KiCad Projects/Temp Controller V1.0.0/Processor.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f19d1ab</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_Push</value>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/Homer/Documents/KiCad Projects/Temp Controller V1.0.0/Processor.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f19d87a</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/Homer/Documents/KiCad Projects/Temp Controller V1.0.0/Processor.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f28556d</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>TestPoint</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/Homer/Documents/KiCad Projects/Temp Controller V1.0.0/Processor.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f2f9f2d</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>TestPoint</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/Homer/Documents/KiCad Projects/Temp Controller V1.0.0/Processor.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f304945</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>TestPoint</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/Homer/Documents/KiCad Projects/Temp Controller V1.0.0/Processor.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f31ffc8</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>TestPoint</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/Homer/Documents/KiCad Projects/Temp Controller V1.0.0/Processor.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f320151</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery">
+      <description>Multiple-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="B150-E3">
+      <description>50V 1A Schottky Barrier Rectifier Diode, SMA(DO-214AC)</description>
+      <docs>http://www.vishay.com/docs/88946/b120.pdf</docs>
+      <footprints>
+        <fp>D*SMA*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">B150-E3</field>
+        <field name="Footprint">Diode_SMD:D_SMA</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88946/b120.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Processor-rescue" part="47124-SamacSys_Parts">
+      <docs>http://www.farnell.com/datasheets/606238.pdf</docs>
+      <fields>
+        <field name="Reference">PS</field>
+        <field name="Value">47124-SamacSys_Parts</field>
+        <field name="Footprint">47124</field>
+        <field name="Datasheet">http://www.farnell.com/datasheets/606238.pdf</field>
+        <field name="Description">AC/DC PCB Mount Power Supply, Switch Mode, Adjustable, Fixed, 85 V, 265 V, 2.5 W, 12 V, 210 mA RoHS Compliant: Yes</field>
+        <field name="Height">22.3</field>
+        <field name="Manufacturer_Name">MYRRA</field>
+        <field name="Manufacturer_Part_Number">47124</field>
+        <field name="Arrow Part Number">47124</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AC_OR_DC_INPUT_1" type="passive"/>
+        <pin num="5" name="AC_OR_DC_INPUT_2" type="passive"/>
+        <pin num="7" name="DC_OUTPUT_+V" type="passive"/>
+        <pin num="9" name="DC_OUTPUT_0V" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Processor-rescue" part="MCP1812BT-033_LB-SamacSys_Parts">
+      <docs>https://componentsearchengine.com//MCP1812BT-033_LB.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">MCP1812BT-033_LB-SamacSys_Parts</field>
+        <field name="Footprint">SOT65P210X110-3N</field>
+        <field name="Datasheet">https://componentsearchengine.com//MCP1812BT-033_LB.pdf</field>
+        <field name="Description">LDO Voltage Regulators Ultra Low Iq LDO</field>
+        <field name="Height">1.1</field>
+        <field name="Mouser Part Number">579-MCP1812BT-033/LB</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP1812BT-033-LB?qs=byeeYqUIh0OAvmgcjtWJGQ%3D%3D</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">MCP1812BT-033/LB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VOUT" type="passive"/>
+        <pin num="2" name="VIN" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Processor-rescue" part="MCP9808T-E_MS-SamacSys_Parts">
+      <docs>https://ww1.microchip.com/downloads/en/DeviceDoc/25095A.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">MCP9808T-E_MS-SamacSys_Parts</field>
+        <field name="Footprint">SOP65P490X110-8N</field>
+        <field name="Datasheet">https://ww1.microchip.com/downloads/en/DeviceDoc/25095A.pdf</field>
+        <field name="Description">Microchip MCP9808T-E/MS, Temperature Converter -40  +125 C +/-1C Serial-I2C, SMBus, 8-Pin MSOP</field>
+        <field name="Height">1.1</field>
+        <field name="Mouser Part Number">579-MCP9808T-E/MS</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP9808T-E-MS?qs=fgHA1UgJI8BYolGts7svKQ%3D%3D</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">MCP9808T-E/MS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SDA" type="bidirectional"/>
+        <pin num="2" name="SCL" type="input"/>
+        <pin num="3" name="ALERT" type="output"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="A2" type="input"/>
+        <pin num="6" name="A1" type="input"/>
+        <pin num="7" name="A0" type="input"/>
+        <pin num="8" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Processor-rescue" part="NCP551SN50T1G-SamacSys_Parts">
+      <docs>http://www.onsemi.com/pub/Collateral/NCP551-D.PDF</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">NCP551SN50T1G-SamacSys_Parts</field>
+        <field name="Footprint">SOT95P275X110-5N</field>
+        <field name="Datasheet">http://www.onsemi.com/pub/Collateral/NCP551-D.PDF</field>
+        <field name="Description">ON Semiconductor NCP551SN50T1G, LDO Voltage Regulator, 150mA, 5 V 2%, 0  12 Vin, 5-Pin TSOP</field>
+        <field name="Height">1.1</field>
+        <field name="Mouser Part Number">863-NCP551SN50T1G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/NCP551SN50T1G?qs=%2FugrpAKHX8qYwrg%2F5Smfsg%3D%3D</field>
+        <field name="Manufacturer_Name">ON Semiconductor</field>
+        <field name="Manufacturer_Part_Number">NCP551SN50T1G</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="ENABLE" type="passive"/>
+        <pin num="4" name="N/C" type="no_connect"/>
+        <pin num="5" name="VOUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Processor-rescue" part="NHD-C0216CiZ-FSW-FBW-3V3-SamacSys_Parts">
+      <docs>https://componentsearchengine.com/Datasheets/1/NHD-C0216CiZ-FSW-FBW-3V3.pdf</docs>
+      <fields>
+        <field name="Reference">DS</field>
+        <field name="Value">NHD-C0216CiZ-FSW-FBW-3V3-SamacSys_Parts</field>
+        <field name="Footprint">NHD-C0216CIZ-FSW-FBW-3V3</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/NHD-C0216CiZ-FSW-FBW-3V3.pdf</field>
+        <field name="Description">LCD Character Display Modules &amp; Accessories FSTN (+) Transfl 56.0 x 25.3 x 5.5</field>
+        <field name="Mouser Part Number">763-C0216CIZFSWFBW3V</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Newhaven-Display/NHD-C0216CiZ-FSW-FBW-3V3?qs=Vb5qD4CGh4kMzks2c1g3mA%3D%3D</field>
+        <field name="Manufacturer_Name">Newhaven Display</field>
+        <field name="Manufacturer_Part_Number">NHD-C0216CiZ-FSW-FBW-3V3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="REST" type="passive"/>
+        <pin num="2" name="SCL" type="passive"/>
+        <pin num="3" name="SDA" type="passive"/>
+        <pin num="4" name="VSS" type="passive"/>
+        <pin num="5" name="VDD" type="passive"/>
+        <pin num="6" name="VOUT" type="passive"/>
+        <pin num="7" name="C1+" type="passive"/>
+        <pin num="8" name="C1-" type="passive"/>
+        <pin num="9" name="K" type="passive"/>
+        <pin num="10" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Processor-rescue" part="PIC18F27Q43-I_SP-SamacSys_Parts">
+      <docs>https://componentsearchengine.com/Datasheets/2/PIC18F27Q43-I_SP.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">PIC18F27Q43-I_SP-SamacSys_Parts</field>
+        <field name="Footprint">DIP794W56P254L3486H508Q28N</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/2/PIC18F27Q43-I_SP.pdf</field>
+        <field name="Description">8-bit Microcontrollers - MCU 128KB Flash, 8KB RAM, 1KB EEPROM, 12b ADC2, 5b DAC, Comp, PWM, CCP, CWG, HLT, WWDT, SCAN/CRC, ZCD, PPS, EUSART, SPI/I2C, IDLE/DOZE/PMD</field>
+        <field name="Height">5.08</field>
+        <field name="Mouser Part Number">579-PIC18F27Q43-I/SP</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/PIC18F27Q43-I-SP?qs=T3oQrply3y9%2F3lp5qsrz4w%3D%3D</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">PIC18F27Q43-I/SP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{MCLR}/VPP/RE3" type="passive"/>
+        <pin num="2" name="RA0" type="passive"/>
+        <pin num="3" name="RA1" type="passive"/>
+        <pin num="4" name="RA2" type="passive"/>
+        <pin num="5" name="RA3/Vref+ADC" type="passive"/>
+        <pin num="6" name="RA4" type="passive"/>
+        <pin num="7" name="RA5" type="passive"/>
+        <pin num="8" name="VSS_1" type="passive"/>
+        <pin num="9" name="RA7" type="passive"/>
+        <pin num="10" name="RA6" type="passive"/>
+        <pin num="11" name="RC0" type="passive"/>
+        <pin num="12" name="RC1" type="passive"/>
+        <pin num="13" name="RC2" type="passive"/>
+        <pin num="14" name="RC3" type="passive"/>
+        <pin num="15" name="RC4" type="passive"/>
+        <pin num="16" name="RC5" type="passive"/>
+        <pin num="17" name="RC6" type="passive"/>
+        <pin num="18" name="RC7" type="passive"/>
+        <pin num="19" name="VSS_2" type="passive"/>
+        <pin num="20" name="VDD" type="passive"/>
+        <pin num="21" name="RB0" type="passive"/>
+        <pin num="22" name="RB1" type="passive"/>
+        <pin num="23" name="RB2" type="passive"/>
+        <pin num="24" name="RB3" type="passive"/>
+        <pin num="25" name="RB4" type="passive"/>
+        <pin num="26" name="RB5" type="passive"/>
+        <pin num="27" name="RB6/ICSPCLK" type="passive"/>
+        <pin num="28" name="RB7/ICSPDAT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Processor-rescue" part="SCHA4B0419-SamacSys_Parts">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SCHA4B0419-SamacSys_Parts</field>
+        <field name="Footprint">SCHA4B0419</field>
+        <field name="Description">Memory Card Connectors</field>
+        <field name="Mouser Part Number">688-SCHA4B0419</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/ALPS/SCHA4B0419?qs=9Bj94LTQhPBSHliECEbqJw%3D%3D</field>
+        <field name="Manufacturer_Name">ALPS</field>
+        <field name="Manufacturer_Part_Number">SCHA4B0419</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DAT2" type="passive"/>
+        <pin num="2" name="DAT3/CD" type="passive"/>
+        <pin num="3" name="CMD" type="passive"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="CLK" type="input"/>
+        <pin num="6" name="VSS" type="power_in"/>
+        <pin num="7" name="DAT0" type="passive"/>
+        <pin num="8" name="DAT1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Processor-rescue">
+      <uri>C:\Users\Homer\Documents\KiCad Projects\Temp Controller V1.0.0/Processor-rescue.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="3.3LDO">
+      <node ref="J1" pin="4" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="2" name="3.3VLDO">
+      <node ref="BT1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="DS1" pin="1" pinfunction="REST" pintype="passive"/>
+      <node ref="DS1" pin="4" pinfunction="VSS" pintype="passive"/>
+      <node ref="DS1" pin="5" pinfunction="VDD" pintype="passive"/>
+      <node ref="IC2" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC3" pin="8" pinfunction="VSS_1" pintype="passive"/>
+      <node ref="IC4" pin="1" pinfunction="VOUT" pintype="passive"/>
+      <node ref="IC4" pin="3" pinfunction="GND" pintype="passive"/>
+      <node ref="IC5" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="VSS" pintype="power_in"/>
+      <node ref="PS1" pin="9" pinfunction="DC_OUTPUT_0V" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="3" name="JCK1PIN2">
+      <node ref="IC2" pin="8" pinfunction="VDD" pintype="power_in"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="4" name="JCK1PIN3">
+      <node ref="IC2" pin="2" pinfunction="SCL" pintype="input"/>
+      <node ref="IC3" pin="14" pinfunction="RC3" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="JCK1PIN4">
+      <node ref="IC2" pin="1" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="IC3" pin="15" pinfunction="RC4" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="LINE">
+      <node ref="PS1" pin="1" pinfunction="AC_OR_DC_INPUT_1" pintype="passive"/>
+    </net>
+    <net code="7" name="NEUT">
+      <node ref="PS1" pin="5" pinfunction="AC_OR_DC_INPUT_2" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(BT1-Pad1)">
+      <node ref="BT1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="DS1" pin="6" pinfunction="VOUT" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="DS1" pin="8" pinfunction="C1-" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="DS1" pin="7" pinfunction="C1+" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="IC5" pin="1" pinfunction="VIN" pintype="passive"/>
+      <node ref="IC5" pin="3" pinfunction="ENABLE" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="IC3" pin="20" pinfunction="VDD" pintype="passive"/>
+      <node ref="IC4" pin="2" pinfunction="VIN" pintype="passive"/>
+      <node ref="IC5" pin="5" pinfunction="VOUT" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="IC3" pin="2" pinfunction="RA0" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="IC3" pin="3" pinfunction="RA1" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="IC3" pin="4" pinfunction="RA2" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="PS1" pin="7" pinfunction="DC_OUTPUT_+V" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(DS1-Pad2)">
+      <node ref="DS1" pin="2" pinfunction="SCL" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(DS1-Pad3)">
+      <node ref="DS1" pin="3" pinfunction="SDA" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(DS1-Pad9)">
+      <node ref="DS1" pin="9" pinfunction="K" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(IC3-Pad1)">
+      <node ref="IC3" pin="1" pinfunction="~{MCLR}/VPP/RE3" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(IC3-Pad5)">
+      <node ref="IC3" pin="5" pinfunction="RA3/Vref+ADC" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(IC3-Pad6)">
+      <node ref="IC3" pin="6" pinfunction="RA4" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="CMD" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(IC3-Pad7)">
+      <node ref="IC3" pin="7" pinfunction="RA5" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="DAT3/CD" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(IC3-Pad21)">
+      <node ref="IC3" pin="21" pinfunction="RB0" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(IC3-Pad23)">
+      <node ref="IC3" pin="23" pinfunction="RB2" pintype="passive"/>
+      <node ref="J1" pin="7" pinfunction="DAT0" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(IC3-Pad24)">
+      <node ref="IC3" pin="24" pinfunction="RB3" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="CLK" pintype="input"/>
+    </net>
+    <net code="31" name="Net-(IC3-Pad27)">
+      <node ref="IC3" pin="27" pinfunction="RB6/ICSPCLK" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(IC3-Pad28)">
+      <node ref="IC3" pin="28" pinfunction="RB7/ICSPDAT" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(SW1-Pad1)">
+      <node ref="IC3" pin="12" pinfunction="RC1" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(SW2-Pad1)">
+      <node ref="IC3" pin="11" pinfunction="RC0" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(SW3-Pad1)">
+      <node ref="IC3" pin="10" pinfunction="RA6" pintype="passive"/>
+      <node ref="SW3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="36" name="PLG1PIN1">
+      <node ref="IC1" pin="8" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="37" name="PLG1PIN2">
+      <node ref="IC1" pin="4" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="38" name="PLG1PIN3">
+      <node ref="IC1" pin="2" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="39" name="PLG1PIN4">
+      <node ref="IC1" pin="1" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="RLY1">
+      <node ref="IC3" pin="26" pinfunction="RB5" pintype="passive"/>
+    </net>
+    <net code="41" name="RLY2">
+      <node ref="IC3" pin="25" pinfunction="RB4" pintype="passive"/>
+    </net>
+    <net code="42" name="unconnected-(DS1-Pad10)">
+      <node ref="DS1" pin="10" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="43" name="unconnected-(IC1-Pad3)">
+      <node ref="IC1" pin="3" pinfunction="ALERT" pintype="output"/>
+    </net>
+    <net code="44" name="unconnected-(IC1-Pad5)">
+      <node ref="IC1" pin="5" pinfunction="A2" pintype="input"/>
+    </net>
+    <net code="45" name="unconnected-(IC1-Pad6)">
+      <node ref="IC1" pin="6" pinfunction="A1" pintype="input"/>
+    </net>
+    <net code="46" name="unconnected-(IC1-Pad7)">
+      <node ref="IC1" pin="7" pinfunction="A0" pintype="input"/>
+    </net>
+    <net code="47" name="unconnected-(IC2-Pad3)">
+      <node ref="IC2" pin="3" pinfunction="ALERT" pintype="output"/>
+    </net>
+    <net code="48" name="unconnected-(IC2-Pad5)">
+      <node ref="IC2" pin="5" pinfunction="A2" pintype="input"/>
+    </net>
+    <net code="49" name="unconnected-(IC2-Pad6)">
+      <node ref="IC2" pin="6" pinfunction="A1" pintype="input"/>
+    </net>
+    <net code="50" name="unconnected-(IC2-Pad7)">
+      <node ref="IC2" pin="7" pinfunction="A0" pintype="input"/>
+    </net>
+    <net code="51" name="unconnected-(IC3-Pad9)">
+      <node ref="IC3" pin="9" pinfunction="RA7" pintype="passive"/>
+    </net>
+    <net code="52" name="unconnected-(IC3-Pad13)">
+      <node ref="IC3" pin="13" pinfunction="RC2" pintype="passive"/>
+    </net>
+    <net code="53" name="unconnected-(IC3-Pad16)">
+      <node ref="IC3" pin="16" pinfunction="RC5" pintype="passive"/>
+    </net>
+    <net code="54" name="unconnected-(IC3-Pad17)">
+      <node ref="IC3" pin="17" pinfunction="RC6" pintype="passive"/>
+    </net>
+    <net code="55" name="unconnected-(IC3-Pad18)">
+      <node ref="IC3" pin="18" pinfunction="RC7" pintype="passive"/>
+    </net>
+    <net code="56" name="unconnected-(IC3-Pad19)">
+      <node ref="IC3" pin="19" pinfunction="VSS_2" pintype="passive"/>
+    </net>
+    <net code="57" name="unconnected-(IC3-Pad22)">
+      <node ref="IC3" pin="22" pinfunction="RB1" pintype="passive"/>
+    </net>
+    <net code="58" name="unconnected-(IC5-Pad4)">
+      <node ref="IC5" pin="4" pinfunction="N/C" pintype="no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(J1-Pad1)">
+      <node ref="J1" pin="1" pinfunction="DAT2" pintype="passive+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(J1-Pad8)">
+      <node ref="J1" pin="8" pinfunction="DAT1" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
