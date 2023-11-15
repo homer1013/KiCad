@@ -1392,6 +1392,31 @@
     (uuid ff2950f9-2af6-4d1b-9535-a5665f3d34e1)
   )
 
+  (symbol (lib_id "power:+5V") (at 90.17 115.57 0) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 0870d175-804e-4663-aad8-3d7e3211ad64)
+    (property "Reference" "#PWR09" (at 90.17 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 90.17 120.65 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 90.17 115.57 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 90.17 115.57 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4049783e-d5f1-4664-a06c-714069a222fb))
+    (instances
+      (project "BrevIce PCBA"
+        (path "/eebd9bfd-78a7-4078-9512-a76ab1c9463f"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 72.39 27.94 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1675e4e6-ddc2-4301-8c01-a37bf261d37e)
@@ -1502,6 +1527,31 @@
       (project "BrevIce PCBA"
         (path "/eebd9bfd-78a7-4078-9512-a76ab1c9463f"
           (reference "U2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 132.08 115.57 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 2704fef7-7d42-4e59-bb5b-aebdb6b16eb9)
+    (property "Reference" "#PWR010" (at 132.08 121.92 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 132.08 120.65 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 132.08 115.57 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 132.08 115.57 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a37da67d-3470-4bb3-aa8c-d34a62ce5d75))
+    (instances
+      (project "BrevIce PCBA"
+        (path "/eebd9bfd-78a7-4078-9512-a76ab1c9463f"
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -1786,31 +1836,6 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 90.17 115.57 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 946ccd41-f3a6-4fb3-93b4-3478ed91cbe6)
-    (property "Reference" "#PWR010" (at 90.17 121.92 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 90.17 120.65 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 90.17 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 90.17 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3b4df691-c47d-4e67-92a1-a5ffabf1a224))
-    (instances
-      (project "BrevIce PCBA"
-        (path "/eebd9bfd-78a7-4078-9512-a76ab1c9463f"
-          (reference "#PWR010") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 226.06 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a7d8b5dd-fd7f-4d38-a677-6eb645fb80ef)
@@ -1913,31 +1938,6 @@
       (project "BrevIce PCBA"
         (path "/eebd9bfd-78a7-4078-9512-a76ab1c9463f"
           (reference "#PWR07") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+5V") (at 132.08 115.57 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid c6e9c255-2f58-431a-9c91-39d39ef5bfc4)
-    (property "Reference" "#PWR09" (at 132.08 119.38 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 132.08 110.49 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 132.08 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 132.08 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 352a7512-ab65-4cc5-b6c9-89b1633feded))
-    (instances
-      (project "BrevIce PCBA"
-        (path "/eebd9bfd-78a7-4078-9512-a76ab1c9463f"
-          (reference "#PWR09") (unit 1)
         )
       )
     )
