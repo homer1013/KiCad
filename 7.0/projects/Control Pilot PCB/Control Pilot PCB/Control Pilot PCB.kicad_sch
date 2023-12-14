@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Control Pilot PCB")
+    (date "12/14/2023")
+    (rev "1.0")
+    (company "Power Innovations International")
+    (comment 3 "Created By: Homer Morrill")
+  )
+
   (lib_symbols
     (symbol "Connector_Generic:Conn_01x01" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 2.54 0)
