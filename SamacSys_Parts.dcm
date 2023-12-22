@@ -12,4 +12,16 @@ K
 F http://www.anytek.com.cn/AWHSH112DM00G-15121582407.pdf
 $ENDCMP
 #
+$CMP NHD-0420AZ-FL-YBW-33V3
+D LCD Character Display Modules & Accessories STN-Y/G Transfl 77.5 x 47.0
+K
+F https://www.newhavendisplay.com/specs/NHD-0420AZ-FL-YBW-33V3.pdf
+$ENDCMP
+#
+$CMP EC111012010H
+D Electromechanical Switch Self-Return Switch 0.01A 5VDC - Trays 11mm Size Metal Shaft Type EC11 Series
+K
+F https://tech.alpsalpine.com/prod/e/html/encoder/incremental/ec11/ec111012010h.html
+$ENDCMP
+#
 #End Doc Library

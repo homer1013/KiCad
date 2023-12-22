@@ -1,0 +1,24 @@
+Drill report for Control Pilot PCB.kicad_pcb
+Created on 12/20/2023 3:38:10 PM
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'Control Pilot PCB.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.700mm  0.0276"  (14 holes)
+    T2  1.000mm  0.0394"  (29 holes)
+    T3  1.200mm  0.0472"  (2 holes)
+
+    Total plated holes count 45
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0

@@ -632,7 +632,7 @@
     (property "Value" "~" (at 138.43 96.52 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 138.43 96.52 0)
+    (property "Footprint" "Package_QFP:TQFP-64_10x10mm_P0.5mm" (at 138.43 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 138.43 96.52 0)

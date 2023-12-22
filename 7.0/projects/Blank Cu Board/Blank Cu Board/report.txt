@@ -1,0 +1,12 @@
+Warning: Width correction constrained.  The width correction value must be in the range of [0.000001 mm; 0.199999 mm] for the current design rules.
+Plotted to 'C:\Users\homer.morrill\Documents\GitHub\KiCad\7.0\projects\Blank Cu Board\Blank Cu Board\Blank Cu Board-F_Cu.gbr'.
+Plotted to 'C:\Users\homer.morrill\Documents\GitHub\KiCad\7.0\projects\Blank Cu Board\Blank Cu Board\Blank Cu Board-B_Cu.gbr'.
+Plotted to 'C:\Users\homer.morrill\Documents\GitHub\KiCad\7.0\projects\Blank Cu Board\Blank Cu Board\Blank Cu Board-F_Paste.gbr'.
+Plotted to 'C:\Users\homer.morrill\Documents\GitHub\KiCad\7.0\projects\Blank Cu Board\Blank Cu Board\Blank Cu Board-B_Paste.gbr'.
+Plotted to 'C:\Users\homer.morrill\Documents\GitHub\KiCad\7.0\projects\Blank Cu Board\Blank Cu Board\Blank Cu Board-F_Silkscreen.gbr'.
+Plotted to 'C:\Users\homer.morrill\Documents\GitHub\KiCad\7.0\projects\Blank Cu Board\Blank Cu Board\Blank Cu Board-B_Silkscreen.gbr'.
+Plotted to 'C:\Users\homer.morrill\Documents\GitHub\KiCad\7.0\projects\Blank Cu Board\Blank Cu Board\Blank Cu Board-F_Mask.gbr'.
+Plotted to 'C:\Users\homer.morrill\Documents\GitHub\KiCad\7.0\projects\Blank Cu Board\Blank Cu Board\Blank Cu Board-B_Mask.gbr'.
+Plotted to 'C:\Users\homer.morrill\Documents\GitHub\KiCad\7.0\projects\Blank Cu Board\Blank Cu Board\Blank Cu Board-Edge_Cuts.gbr'.
+Created Gerber job file 'C:\Users\homer.morrill\Documents\GitHub\KiCad\7.0\projects\Blank Cu Board\Blank Cu Board\Blank Cu Board-job.gbrjob'.
+Info: Done.
