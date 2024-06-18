@@ -24,4 +24,10 @@ K
 F https://tech.alpsalpine.com/prod/e/html/encoder/incremental/ec11/ec111012010h.html
 $ENDCMP
 #
+$CMP SLW-1276864-4A-D
+D Slide Switches 12.7 x 6.8 x 6.4 mm, 2 mm Raised Slide Actuator, Vertical, Through Hole
+K
+F https://www.cuidevices.com/product/resource/slw-1276864-4a-d.pdf
+$ENDCMP
+#
 #End Doc Library
