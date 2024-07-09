@@ -1,140 +1,268 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #SamacSys ECAD Model NE555DR
-#/6648/2/2.37/8/4/Integrated Circuit
+#/6648/2/2.28/8/3/Integrated Circuit
 DEF NE555DR IC 0 30 Y Y 1 F N
-F0 "IC" 1050 600 50 H V L CNN
-F1 "NE555DR" 1050 500 50 H V L CNN
-F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
-F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
-F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
-F5 "1.75" 1050 100 50 H I L CNN "Height"
-F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
-F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
-F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
-F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
-F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
-F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+F0 "IC" 1000 700 50 H V L CNN
+F1 "NE555DR" 1000 600 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1000 500 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1000 400 50 H I L CNN
+F4 "Single Precision Timer" 1000 300 50 H I L CNN "Description"
+F5 "1.75" 1000 200 50 H I L CNN "Height"
+F6 "Texas Instruments" 1000 100 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1000 0 50 H I L CNN "Manufacturer_Part_Number"
+F8 "1218414" 1000 -100 50 H I L CNN "RS Part Number"
+F9 "http://uk.rs-online.com/web/p/products/1218414" 1000 -200 50 H I L CNN "RS Price/Stock"
+F10 "NE555DR" 1000 -300 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/ne555dr/texas-instruments" 1000 -400 50 H I L CNN "Arrow Price/Stock"
 DRAW
-X GND 1 600 -1000 200 U 50 50 0 0 B
-X TRIG 2 0 -400 200 R 50 50 0 0 B
-X OUT 3 1200 -200 200 L 50 50 0 0 B
-X ~RESET 4 0 0 200 R 50 50 0 0 B
-X CONT 5 500 600 200 D 50 50 0 0 B
-X THRES 6 0 -300 200 R 50 50 0 0 B
-X DISCH 7 0 -100 200 R 50 50 0 0 B
+X GND 1 600 -800 200 U 50 50 0 0 B
+X TRIG 2 0 0 200 R 50 50 0 0 B
+X OUT 3 0 -200 200 R 50 50 0 0 B
+X RESET 4 500 600 200 D 50 50 0 0 B
+X CONT 5 1200 -300 200 L 50 50 0 0 B
+X THRES 6 1200 -200 200 L 50 50 0 0 B
+X DISCH 7 1200 0 200 L 50 50 0 0 B
 X VCC 8 700 600 200 D 50 50 0 0 B
-P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+P 5 0 1 6 200 400 1000 400 1000 -600 200 -600 200 400 N
+T 0 600 -100 50 0 0 1 "555" Normal 0 C C
 ENDDRAW
 ENDDEF
 #
-#SamacSys ECAD Model AWHSH105D00G
-#/17861032/550576/2.50/4/3/Relay or Contactor
-DEF AWHSH105D00G K 0 30 Y Y 1 F N
-F0 "K" 1150 300 50 H V L CNN
-F1 "AWHSH105D00G" 1150 200 50 H V L CNN
-F2 "AWHSH105D00G" 1150 100 50 H I L CNN
-F3 "http://www.anytek.com.cn/AWHSH112DM00G-15121582407.pdf" 1150 0 50 H I L CNN
-F4 "General Purpose Relays Commercial RelayRated Carrying Current :15AType of Sealing : Sealed and Waterproof TypeNumber of pole : one poleCoil Voltage : 5VCoil Type : Standard DC CoilContact Form : Form C" 1150 -100 50 H I L CNN "Description"
-F5 "15.3" 1150 -200 50 H I L CNN "Height"
-F6 "523-AWHSH105D00G" 1150 -300 50 H I L CNN "Mouser Part Number"
-F7 "https://www.mouser.co.uk/ProductDetail/Amphenol-Anytek/AWHSH105D00G?qs=rSMjJ%252B1ewcT7jFUGTuCYSw%3D%3D" 1150 -400 50 H I L CNN "Mouser Price/Stock"
-F8 "Amphenol" 1150 -500 50 H I L CNN "Manufacturer_Name"
-F9 "AWHSH105D00G" 1150 -600 50 H I L CNN "Manufacturer_Part_Number"
+#SamacSys ECAD Model ATMEGA3208-XFR
+#/1490496/550576/2.49/28/3/Integrated Circuit
+DEF ATMEGA3208-XFR IC 0 30 Y Y 1 F N
+F0 "IC" 1350 300 50 H V L CNN
+F1 "ATMEGA3208-XFR" 1350 200 50 H V L CNN
+F2 "SOP65P780X199-28N" 1350 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/ATMEGA3208-XFR.pdf" 1350 0 50 H I L CNN
+F4 "8-bit Microcontrollers - MCU 20MHz, 32KB, SSOP28, Ind 125C, Green, T&R" 1350 -100 50 H I L CNN "Description"
+F5 "1.99" 1350 -200 50 H I L CNN "Height"
+F6 "Microchip" 1350 -300 50 H I L CNN "Manufacturer_Name"
+F7 "ATMEGA3208-XFR" 1350 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "556-ATMEGA3208-XFR" 1350 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/ATMEGA3208-XFR?qs=y6ZabgHbY%252ByexExRqReahg%3D%3D" 1350 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 1350 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 1350 -800 50 H I L CNN "Arrow Price/Stock"
 DRAW
-X COIL_1 1 0 0 200 R 50 50 0 0 P
-X NO 2 0 -100 200 R 50 50 0 0 P
-X COIL_2 3 1300 0 200 L 50 50 0 0 P
-X COM 4 1300 -100 200 L 50 50 0 0 P
-P 5 0 1 6 200 100 1100 100 1100 -200 200 -200 200 100 N
+X PA7 1 0 0 200 R 50 50 0 0 P
+X PC0 2 0 -100 200 R 50 50 0 0 P
+X PC1 3 0 -200 200 R 50 50 0 0 P
+X PC2 4 0 -300 200 R 50 50 0 0 P
+X PC3 5 0 -400 200 R 50 50 0 0 P
+X PD0 6 0 -500 200 R 50 50 0 0 P
+X PD1 7 0 -600 200 R 50 50 0 0 P
+X PD2 8 0 -700 200 R 50 50 0 0 P
+X PD3 9 0 -800 200 R 50 50 0 0 P
+X PD4 10 0 -900 200 R 50 50 0 0 P
+X PD5 11 0 -1000 200 R 50 50 0 0 P
+X PD6 12 0 -1100 200 R 50 50 0 0 P
+X PD7 13 0 -1200 200 R 50 50 0 0 P
+X AVDD 14 0 -1300 200 R 50 50 0 0 P
+X PA6 28 1500 0 200 L 50 50 0 0 P
+X PA5 27 1500 -100 200 L 50 50 0 0 P
+X PA4 26 1500 -200 200 L 50 50 0 0 P
+X PA3 25 1500 -300 200 L 50 50 0 0 P
+X PA2 24 1500 -400 200 L 50 50 0 0 P
+X PA1 23 1500 -500 200 L 50 50 0 0 P
+X PA0(EXTCLK) 22 1500 -600 200 L 50 50 0 0 P
+X GND_2 21 1500 -700 200 L 50 50 0 0 P
+X VDD 20 1500 -800 200 L 50 50 0 0 P
+X UPDI 19 1500 -900 200 L 50 50 0 0 P
+X PF6 18 1500 -1000 200 L 50 50 0 0 P
+X PF1(TOSC2) 17 1500 -1100 200 L 50 50 0 0 P
+X PF0(TOSC1) 16 1500 -1200 200 L 50 50 0 0 P
+X GND_1 15 1500 -1300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1300 100 1300 -1400 200 -1400 200 100 N
 ENDDRAW
 ENDDEF
 #
-#SamacSys ECAD Model NHD-0420AZ-FL-YBW-33V3
-#/816661/550576/2.50/20/4/Display
-DEF NHD-0420AZ-FL-YBW-33V3 DS 0 30 Y Y 1 F N
-F0 "DS" 950 300 50 H V L CNN
-F1 "NHD-0420AZ-FL-YBW-33V3" 950 200 50 H V L CNN
-F2 "NHD0420AZFLYBW33V3" 950 100 50 H I L CNN
-F3 "https://www.newhavendisplay.com/specs/NHD-0420AZ-FL-YBW-33V3.pdf" 950 0 50 H I L CNN
-F4 "LCD Character Display Modules & Accessories STN-Y/G Transfl 77.5 x 47.0" 950 -100 50 H I L CNN "Description"
-F5 "14.5" 950 -200 50 H I L CNN "Height"
-F6 "Newhaven Display" 950 -300 50 H I L CNN "Manufacturer_Name"
-F7 "NHD-0420AZ-FL-YBW-33V3" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
-F8 "763-0420AZFLYBW33V3" 950 -500 50 H I L CNN "Mouser Part Number"
-F9 "https://www.mouser.co.uk/ProductDetail/Newhaven-Display/NHD-0420AZ-FL-YBW-33V3?qs=G49gCGQm93hSVvgE4zZg6g%3D%3D" 950 -600 50 H I L CNN "Mouser Price/Stock"
-F10 "" 950 -700 50 H I L CNN "Arrow Part Number"
-F11 "" 950 -800 50 H I L CNN "Arrow Price/Stock"
+#SamacSys ECAD Model ATMEGA328P-AU
+#/575055/550576/2.49/32/4/Integrated Circuit
+DEF ATMEGA328P-AU IC 0 30 Y Y 1 F N
+F0 "IC" 1850 1400 50 H V L CNN
+F1 "ATMEGA328P-AU" 1850 1300 50 H V L CNN
+F2 "QFP80P900X900X120-32N" 1850 1200 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/2/ATMEGA328P-AU.pdf" 1850 1100 50 H I L CNN
+F4 "MICROCHIP - ATMEGA328P-AU. - MICROCONTROLLER MCU, 8 BIT, ATMEGA, 20MHZ, TQFP-32" 1850 1000 50 H I L CNN "Description"
+F5 "1.2" 1850 900 50 H I L CNN "Height"
+F6 "Microchip" 1850 800 50 H I L CNN "Manufacturer_Name"
+F7 "ATMEGA328P-AU" 1850 700 50 H I L CNN "Manufacturer_Part_Number"
+F8 "556-ATMEGA328P-AU" 1850 600 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Atmel/ATMEGA328P-AU?qs=K8BHR703ZXiCmmgp6%2FGNmQ%3D%3D" 1850 500 50 H I L CNN "Mouser Price/Stock"
+F10 "ATMEGA328P-AU" 1850 400 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/atmega328p-au/microchip-technology?region=nac" 1850 300 50 H I L CNN "Arrow Price/Stock"
 DRAW
-X VSS 1 0 0 200 R 50 50 0 0 P
-X VDD 2 0 -100 200 R 50 50 0 0 P
-X V0 3 0 -200 200 R 50 50 0 0 P
-X RS 4 0 -300 200 R 50 50 0 0 P
-X R/W 5 0 -400 200 R 50 50 0 0 P
-X E 6 0 -500 200 R 50 50 0 0 P
-X DB0 7 0 -600 200 R 50 50 0 0 P
-X DB1 8 0 -700 200 R 50 50 0 0 P
-X DB2 9 0 -800 200 R 50 50 0 0 P
-X DB3 10 0 -900 200 R 50 50 0 0 P
-X DB4 11 1100 0 200 L 50 50 0 0 P
-X DB5 12 1100 -100 200 L 50 50 0 0 P
-X DB6 13 1100 -200 200 L 50 50 0 0 P
-X DB7 14 1100 -300 200 L 50 50 0 0 P
-X LED+ 15 1100 -400 200 L 50 50 0 0 P
-X LED- 16 1100 -500 200 L 50 50 0 0 P
-X MH1 MH1 1100 -600 200 L 50 50 0 0 P
-X MH2 MH2 1100 -700 200 L 50 50 0 0 P
-X MH3 MH3 1100 -800 200 L 50 50 0 0 P
-X MH4 MH4 1100 -900 200 L 50 50 0 0 P
-P 5 0 1 6 200 100 900 100 900 -1000 200 -1000 200 100 N
+X PD3_[PCINT19] 1 0 0 200 R 50 50 0 0 B
+X PD4_[PCINT20] 2 0 -100 200 R 50 50 0 0 B
+X GND_1 3 0 -200 200 R 50 50 0 0 W
+X VCC_1 4 0 -300 200 R 50 50 0 0 W
+X GND_2 5 0 -400 200 R 50 50 0 0 W
+X VCC_2 6 0 -500 200 R 50 50 0 0 W
+X PB6_[PCINT6] 7 0 -600 200 R 50 50 0 0 B
+X PB7_[PCINT7] 8 0 -700 200 R 50 50 0 0 B
+X PD5_[PCINT21] 9 600 -1800 200 U 50 50 0 0 B
+X PD6_[PCINT22] 10 700 -1800 200 U 50 50 0 0 B
+X PD7_[PCINT23] 11 800 -1800 200 U 50 50 0 0 B
+X PB0_[PCINT0] 12 900 -1800 200 U 50 50 0 0 B
+X PB1_[PCINT1] 13 1000 -1800 200 U 50 50 0 0 B
+X PB2_[PCINT2] 14 1100 -1800 200 U 50 50 0 0 B
+X PB3_[PCINT3] 15 1200 -1800 200 U 50 50 0 0 B
+X PB4_[PCINT4] 16 1300 -1800 200 U 50 50 0 0 B
+X PC1_[PCINT9] 24 2000 0 200 L 50 50 0 0 B
+X PC0_[PCINT8] 23 2000 -100 200 L 50 50 0 0 B
+X ADC7 22 2000 -200 200 L 50 50 0 0 B
+X GND_3 21 2000 -300 200 L 50 50 0 0 W
+X AREF 20 2000 -400 200 L 50 50 0 0 B
+X ADC6 19 2000 -500 200 L 50 50 0 0 B
+X AVCC 18 2000 -600 200 L 50 50 0 0 W
+X PB5_[PCINT5] 17 2000 -700 200 L 50 50 0 0 B
+X PD2_[PCINT18] 32 600 1400 200 D 50 50 0 0 B
+X PD1_[PCINT17] 31 700 1400 200 D 50 50 0 0 B
+X PD0_[PCINT16] 30 800 1400 200 D 50 50 0 0 B
+X PC6_[RESET/PCINT14] 29 900 1400 200 D 50 50 0 0 B
+X PC5_[PCINT13] 28 1000 1400 200 D 50 50 0 0 B
+X PC4_[PCINT12] 27 1100 1400 200 D 50 50 0 0 B
+X PC3_[PCINT11] 26 1200 1400 200 D 50 50 0 0 B
+X PC2_[PCINT10] 25 1300 1400 200 D 50 50 0 0 B
+P 5 0 1 6 200 1200 1800 1200 1800 -1600 200 -1600 200 1200 N
 ENDDRAW
 ENDDEF
 #
-#SamacSys ECAD Model EC111012010H
-#/12334315/550576/2.50/7/3/Variable Resistor
-DEF EC111012010H VR 0 30 Y Y 1 F N
-F0 "VR" 850 600 50 H V L CNN
-F1 "EC111012010H" 850 500 50 H V L CNN
-F2 "EC111012010H" 850 400 50 H I L CNN
-F3 "https://tech.alpsalpine.com/prod/e/html/encoder/incremental/ec11/ec111012010h.html" 850 300 50 H I L CNN
-F4 "Electromechanical Switch Self-Return Switch 0.01A 5VDC - Trays 11mm Size Metal Shaft Type EC11 Series" 850 200 50 H I L CNN "Description"
-F5 "25" 850 100 50 H I L CNN "Height"
-F6 "688-EC111012010H" 850 0 50 H I L CNN "Mouser Part Number"
-F7 "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/EC111012010H?qs=YMSFtX0bdJDrbcKzFtERqA%3D%3D" 850 -100 50 H I L CNN "Mouser Price/Stock"
-F8 "ALPS Electric" 850 -200 50 H I L CNN "Manufacturer_Name"
-F9 "EC111012010H" 850 -300 50 H I L CNN "Manufacturer_Part_Number"
+#SamacSys ECAD Model USB4125-GF-A-0190
+#/14873784/550576/2.50/10/4/Connector
+DEF USB4125-GF-A-0190 J 0 30 Y Y 1 F N
+F0 "J" 1150 300 50 H V L CNN
+F1 "USB4125-GF-A-0190" 1150 200 50 H V L CNN
+F2 "USB4125GFA0190" 1150 100 50 H I L CNN
+F3 "" 1150 0 50 H I L CNN
+F4 "USB Connectors USB C Rec GF RA 6P SMT TH Stakes 1.9mm" 1150 -100 50 H I L CNN "Description"
+F5 "" 1150 -200 50 H I L CNN "Height"
+F6 "640-USB4125-GF-A-190" 1150 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/GCT/USB4125-GF-A-0190?qs=QNEnbhJQKvbCz4hEJBS24w%3D%3D" 1150 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "GCT (GLOBAL CONNECTOR TECHNOLOGY)" 1150 -500 50 H I L CNN "Manufacturer_Name"
+F9 "USB4125-GF-A-0190" 1150 -600 50 H I L CNN "Manufacturer_Part_Number"
 DRAW
-X CW A1 400 -700 200 U 50 50 0 0 P
-X CCW B1 600 -700 200 U 50 50 0 0 P
-X WIPER C1 500 -700 200 U 50 50 0 0 P
-X COM D1 400 600 200 D 50 50 0 0 P
-X NO E1 500 600 200 D 50 50 0 0 P
-X MH1 MH1 0 0 200 R 50 50 0 0 P
-X MH2 MH2 1000 0 200 L 50 50 0 0 P
-P 5 0 1 6 200 400 800 400 800 -500 200 -500 200 400 N
+X CC1 A5 0 0 200 R 50 50 0 0 P
+X VBUS_1 A9 0 -100 200 R 50 50 0 0 P
+X GND_1 A12 0 -200 200 R 50 50 0 0 P
+X CC2 B5 0 -300 200 R 50 50 0 0 P
+X VBUS_2 B9 0 -400 200 R 50 50 0 0 P
+X GND_2 B12 1300 0 200 L 50 50 0 0 P
+X MH1 MH1 1300 -100 200 L 50 50 0 0 P
+X MH2 MH2 1300 -200 200 L 50 50 0 0 P
+X MH3 MH3 1300 -300 200 L 50 50 0 0 P
+X MH4 MH4 1300 -400 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -500 200 -500 200 100 N
 ENDDRAW
 ENDDEF
 #
-#SamacSys ECAD Model SLW-1276864-4A-D
-#/18856035/550576/2.50/3/3/Switch
-DEF SLW-1276864-4A-D S 0 30 Y Y 1 F N
-F0 "S" 750 300 50 H V L CNN
-F1 "SLW-1276864-4A-D" 750 200 50 H V L CNN
-F2 "SLW12768644AD" 750 100 50 H I L CNN
-F3 "https://www.cuidevices.com/product/resource/slw-1276864-4a-d.pdf" 750 0 50 H I L CNN
-F4 "Slide Switches 12.7 x 6.8 x 6.4 mm, 2 mm Raised Slide Actuator, Vertical, Through Hole" 750 -100 50 H I L CNN "Description"
-F5 "10.6" 750 -200 50 H I L CNN "Height"
-F6 "CUI Devices" 750 -300 50 H I L CNN "Manufacturer_Name"
-F7 "SLW-1276864-4A-D" 750 -400 50 H I L CNN "Manufacturer_Part_Number"
-F8 "179-SLW-1276864-4A-D" 750 -500 50 H I L CNN "Mouser Part Number"
-F9 "https://www.mouser.co.uk/ProductDetail/CUI-Devices/SLW-1276864-4A-D?qs=1Kr7Jg1SGW90vOt02EYiag%3D%3D" 750 -600 50 H I L CNN "Mouser Price/Stock"
-F10 "SLW-1276864-4A-D" 750 -700 50 H I L CNN "Arrow Part Number"
-F11 "https://www.arrow.com/en/products/slw-1276864-4a-d/cui-devices?region=nac" 750 -800 50 H I L CNN "Arrow Price/Stock"
+#SamacSys ECAD Model TS02-66-43-BK-260-LCR-D
+#/15467562/550576/2.49/4/3/Integrated Circuit
+DEF TS02-66-43-BK-260-LCR-D IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "TS02-66-43-BK-260-LCR-D" 1050 200 50 H V L CNN
+F2 "TS026643BK260LCRD" 1050 100 50 H I L CNN
+F3 "https://www.cuidevices.com/product/resource/ts02.pdf" 1050 0 50 H I L CNN
+F4 "Tactile Switches 6 x 6 mm, 4.3 mm Act Height, 260 gf, Black, Long Crimped, Through Hole, SPST," 1050 -100 50 H I L CNN "Description"
+F5 "4.5" 1050 -200 50 H I L CNN "Height"
+F6 "CUI Inc." 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "TS02-66-43-BK-260-LCR-D" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "179-TS026643BK260LCR" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/CUI-Devices/TS02-66-43-BK-260-LCR-D?qs=A6eO%252BMLsxmQi%252BNuzcShOvg%3D%3D" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "TS02-66-43-BK-260-LCR-D" 1050 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/ts02-66-43-bk-260-lcr-d/cui-devices?region=nac" 1050 -800 50 H I L CNN "Arrow Price/Stock"
 DRAW
-X NC 1 0 0 200 R 50 50 0 0 N
-X COM 2 0 -100 200 R 50 50 0 0 P
-X NO 3 0 -200 200 R 50 50 0 0 P
-P 5 0 1 6 200 100 700 100 700 -300 200 -300 200 100 N
+X NO_1 1 0 0 200 R 50 50 0 0 P
+X NO_2 2 1200 0 200 L 50 50 0 0 P
+X COM_1 3 0 -100 200 R 50 50 0 0 P
+X COM_2 4 1200 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model DF1B-3P-2.5DSA_01_
+#/1109050/550576/2.49/3/4/Connector
+DEF DF1B-3P-2.5DSA_01_ J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "DF1B-3P-2.5DSA_01_" 650 200 50 H V L CNN
+F2 "DF1B3P25DSA01" 650 100 50 H I L CNN
+F3 "https://www.hirose.com/product/download/?distributor=digikey&type=2d&lang=en&num=DF1B-3P-2.5DSA(01)" 650 0 50 H I L CNN
+F4 "Headers & Wire Housings 2.5MM V SNG ROW HDR 3P THRU-HOLE GOLD" 650 -100 50 H I L CNN "Description"
+F5 "9.7" 650 -200 50 H I L CNN "Height"
+F6 "Hirose" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "DF1B-3P-2.5DSA(01)" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "798-DF1B-3P-2.5DSA01" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/DF1B-3P-25DSA01?qs=zOgoZG1CgI%2F0mpGhbvQnew%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "DF1B-3P-2.5DSA(01)" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/df1b-3p-2.5dsa-01/hirose-electric" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TP4056
+#/1112022/550576/2.49/9/4/Connector
+DEF TP4056 J 0 30 Y Y 1 F N
+F0 "J" 1250 300 50 H V L CNN
+F1 "TP4056" 1250 200 50 H V L CNN
+F2 "SOIC127P600X175-9N" 1250 100 50 H I L CNN
+F3 "https://dlnmh9ip6v2uc.cloudfront.net/datasheets/Prototyping/TP4056.pdf" 1250 0 50 H I L CNN
+F4 "1A Standalone Linear Li-lon Battery Charger, SOP-8" 1250 -100 50 H I L CNN "Description"
+F5 "1.75" 1250 -200 50 H I L CNN "Height"
+F6 "NanJing Top Power" 1250 -300 50 H I L CNN "Manufacturer_Name"
+F7 "TP4056" 1250 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 1250 -500 50 H I L CNN "Mouser Part Number"
+F9 "" 1250 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 1250 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 1250 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X TEMP1 1 0 0 200 R 50 50 0 0 P
+X PROG2 2 0 -100 200 R 50 50 0 0 P
+X GND_3 3 0 -200 200 R 50 50 0 0 P
+X VCC4 4 0 -300 200 R 50 50 0 0 P
+X EP 9 700 -800 200 U 50 50 0 0 P
+X CE 8 1400 0 200 L 50 50 0 0 P
+X ~CHRG 7 1400 -100 200 L 50 50 0 0 P
+X ~STDBY 6 1400 -200 200 L 50 50 0 0 P
+X BAT 5 1400 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1200 100 1200 -600 200 -600 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SI3402-TP
+#/1062903/550576/2.49/3/3/MOSFET (N-Channel)
+DEF SI3402-TP Q 0 30 Y Y 1 F N
+F0 "Q" 450 150 50 H V L CNN
+F1 "SI3402-TP" 450 50 50 H V L CNN
+F2 "SOT96P237X122-3N" 450 -50 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/db7fced084129088ac0abad969ba55b1.pdf" 450 -150 50 H I L CNN
+F4 "MOSFET 30V,4A,N-CHANNEL MOSFET,SOT-23" 450 -250 50 H I L CNN "Description"
+F5 "1.22" 450 -350 50 H I L CNN "Height"
+F6 "Micro Commercial Components (MCC)" 450 -450 50 H I L CNN "Manufacturer_Name"
+F7 "SI3402-TP" 450 -550 50 H I L CNN "Manufacturer_Part_Number"
+F8 "833-SI3402-TP" 450 -650 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Micro-Commercial-Components-MCC/SI3402-TP?qs=y6ZabgHbY%252Bz%252BbnROIOEOVg%3D%3D" 450 -750 50 H I L CNN "Mouser Price/Stock"
+F10 "SI3402-TP" 450 -850 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/si3402-tp/micro-commercial-components?region=europe" 450 -950 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 3 300 400 100 D 50 50 0 0 P
+X ~ 2 300 -200 100 U 50 50 0 0 P
+P 2 0 1 6 300 100 300 -100 N
+P 2 0 1 6 300 200 300 300 N
+P 3 0 1 6 100 0 200 0 200 200 N
+P 2 0 1 6 300 100 230 100 N
+P 2 0 1 6 300 200 230 200 N
+P 2 0 1 6 230 0 300 0 N
+P 2 0 1 6 230 220 230 180 N
+P 2 0 1 6 230 -20 230 20 N
+P 2 0 1 6 230 80 230 120 N
+C 250 100 150 0 1 10 N
+P 4 0 1 10 230 100 270 120 270 80 230 100 F
 ENDDRAW
 ENDDEF
 #

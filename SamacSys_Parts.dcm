@@ -6,28 +6,46 @@ K
 F http://www.ti.com/lit/ds/symlink/ne555.pdf
 $ENDCMP
 #
-$CMP AWHSH105D00G
-D General Purpose Relays Commercial RelayRated Carrying Current :15AType of Sealing : Sealed and Waterproof TypeNumber of pole : one poleCoil Voltage : 5VCoil Type : Standard DC CoilContact Form : Form C
+$CMP ATMEGA3208-XFR
+D 8-bit Microcontrollers - MCU 20MHz, 32KB, SSOP28, Ind 125C, Green, T&R
 K
-F http://www.anytek.com.cn/AWHSH112DM00G-15121582407.pdf
+F https://componentsearchengine.com/Datasheets/1/ATMEGA3208-XFR.pdf
 $ENDCMP
 #
-$CMP NHD-0420AZ-FL-YBW-33V3
-D LCD Character Display Modules & Accessories STN-Y/G Transfl 77.5 x 47.0
+$CMP ATMEGA328P-AU
+D MICROCHIP - ATMEGA328P-AU. - MICROCONTROLLER MCU, 8 BIT, ATMEGA, 20MHZ, TQFP-32
 K
-F https://www.newhavendisplay.com/specs/NHD-0420AZ-FL-YBW-33V3.pdf
+F https://componentsearchengine.com/Datasheets/2/ATMEGA328P-AU.pdf
 $ENDCMP
 #
-$CMP EC111012010H
-D Electromechanical Switch Self-Return Switch 0.01A 5VDC - Trays 11mm Size Metal Shaft Type EC11 Series
+$CMP USB4125-GF-A-0190
+D USB Connectors USB C Rec GF RA 6P SMT TH Stakes 1.9mm
 K
-F https://tech.alpsalpine.com/prod/e/html/encoder/incremental/ec11/ec111012010h.html
+F 
 $ENDCMP
 #
-$CMP SLW-1276864-4A-D
-D Slide Switches 12.7 x 6.8 x 6.4 mm, 2 mm Raised Slide Actuator, Vertical, Through Hole
+$CMP TS02-66-43-BK-260-LCR-D
+D Tactile Switches 6 x 6 mm, 4.3 mm Act Height, 260 gf, Black, Long Crimped, Through Hole, SPST,
 K
-F https://www.cuidevices.com/product/resource/slw-1276864-4a-d.pdf
+F https://www.cuidevices.com/product/resource/ts02.pdf
+$ENDCMP
+#
+$CMP DF1B-3P-2.5DSA_01_
+D Headers & Wire Housings 2.5MM V SNG ROW HDR 3P THRU-HOLE GOLD
+K
+F https://www.hirose.com/product/download/?distributor=digikey&type=2d&lang=en&num=DF1B-3P-2.5DSA(01)
+$ENDCMP
+#
+$CMP TP4056
+D 1A Standalone Linear Li-lon Battery Charger, SOP-8
+K
+F https://dlnmh9ip6v2uc.cloudfront.net/datasheets/Prototyping/TP4056.pdf
+$ENDCMP
+#
+$CMP SI3402-TP
+D MOSFET 30V,4A,N-CHANNEL MOSFET,SOT-23
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/db7fced084129088ac0abad969ba55b1.pdf
 $ENDCMP
 #
 #End Doc Library
