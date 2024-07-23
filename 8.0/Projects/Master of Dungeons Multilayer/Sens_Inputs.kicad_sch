@@ -995,7 +995,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0469d852-c9ac-4033-b507-acd425a9b93f")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR064"
 			(at 115.57 158.75 0)
 			(effects
 				(font
@@ -1046,7 +1046,7 @@
 		(instances
 			(project "Master of Dungeons Multilayer"
 				(path "/e447b28f-c2ac-4923-9678-16831d5b7ae9/14695e2c-744a-4251-8a70-014f333efa9c"
-					(reference "#PWR076")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -1062,7 +1062,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1126c3ae-5a06-4ff2-9f84-f2dcbc49dcfb")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR063"
 			(at 115.57 124.46 0)
 			(effects
 				(font
@@ -1113,7 +1113,7 @@
 		(instances
 			(project "Master of Dungeons Multilayer"
 				(path "/e447b28f-c2ac-4923-9678-16831d5b7ae9/14695e2c-744a-4251-8a70-014f333efa9c"
-					(reference "#PWR073")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -1129,7 +1129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18a1f5ca-334e-429e-889a-2d3b50c59937")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR060"
 			(at 99.06 134.62 0)
 			(effects
 				(font
@@ -1179,7 +1179,7 @@
 		(instances
 			(project "Master of Dungeons Multilayer"
 				(path "/e447b28f-c2ac-4923-9678-16831d5b7ae9/14695e2c-744a-4251-8a70-014f333efa9c"
-					(reference "#PWR075")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -1267,7 +1267,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d615112-15c2-4910-80ba-5a907e090efa")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR067"
 			(at 115.57 133.35 0)
 			(effects
 				(font
@@ -1317,7 +1317,7 @@
 		(instances
 			(project "Master of Dungeons Multilayer"
 				(path "/e447b28f-c2ac-4923-9678-16831d5b7ae9/14695e2c-744a-4251-8a70-014f333efa9c"
-					(reference "#PWR074")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -1403,7 +1403,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "556b79a1-3d34-4aa2-942b-edd8af625ca8")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR068"
 			(at 115.57 167.64 0)
 			(effects
 				(font
@@ -1453,7 +1453,7 @@
 		(instances
 			(project "Master of Dungeons Multilayer"
 				(path "/e447b28f-c2ac-4923-9678-16831d5b7ae9/14695e2c-744a-4251-8a70-014f333efa9c"
-					(reference "#PWR077")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -1541,7 +1541,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59bddb99-622f-4179-9c18-0b959b631e9f")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR061"
 			(at 115.57 57.15 0)
 			(effects
 				(font
@@ -1592,7 +1592,7 @@
 		(instances
 			(project "Master of Dungeons Multilayer"
 				(path "/e447b28f-c2ac-4923-9678-16831d5b7ae9/14695e2c-744a-4251-8a70-014f333efa9c"
-					(reference "#PWR013")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -1608,7 +1608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "667254d1-99bc-4b89-92a4-7dcd691129db")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR066"
 			(at 115.57 99.06 0)
 			(effects
 				(font
@@ -1658,7 +1658,7 @@
 		(instances
 			(project "Master of Dungeons Multilayer"
 				(path "/e447b28f-c2ac-4923-9678-16831d5b7ae9/14695e2c-744a-4251-8a70-014f333efa9c"
-					(reference "#PWR071")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -1674,7 +1674,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6803609b-26a5-42fc-a438-a408d105f35f")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR062"
 			(at 115.57 90.17 0)
 			(effects
 				(font
@@ -1725,7 +1725,7 @@
 		(instances
 			(project "Master of Dungeons Multilayer"
 				(path "/e447b28f-c2ac-4923-9678-16831d5b7ae9/14695e2c-744a-4251-8a70-014f333efa9c"
-					(reference "#PWR070")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -1741,7 +1741,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68579251-46e4-426a-9d52-1432df30ce7b")
-		(property "Reference" "R15"
+		(property "Reference" "R16"
 			(at 101.6 116.8399 0)
 			(effects
 				(font
@@ -1795,7 +1795,7 @@
 		(instances
 			(project "Master of Dungeons Multilayer"
 				(path "/e447b28f-c2ac-4923-9678-16831d5b7ae9/14695e2c-744a-4251-8a70-014f333efa9c"
-					(reference "R15")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -1883,7 +1883,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b598677-76f7-4832-b523-3fc4e4e625b8")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR065"
 			(at 115.57 66.04 0)
 			(effects
 				(font
@@ -1933,7 +1933,7 @@
 		(instances
 			(project "Master of Dungeons Multilayer"
 				(path "/e447b28f-c2ac-4923-9678-16831d5b7ae9/14695e2c-744a-4251-8a70-014f333efa9c"
-					(reference "#PWR041")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -2021,7 +2021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f7ac47d-076b-47b5-b644-bb53544b563d")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR058"
 			(at 99.06 66.04 0)
 			(effects
 				(font
@@ -2071,7 +2071,7 @@
 		(instances
 			(project "Master of Dungeons Multilayer"
 				(path "/e447b28f-c2ac-4923-9678-16831d5b7ae9/14695e2c-744a-4251-8a70-014f333efa9c"
-					(reference "#PWR069")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -2157,7 +2157,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0bbd381-b1ef-475f-9928-3537695aae2e")
-		(property "Reference" "R16"
+		(property "Reference" "R17"
 			(at 101.6 151.1299 0)
 			(effects
 				(font
@@ -2211,7 +2211,7 @@
 		(instances
 			(project "Master of Dungeons Multilayer"
 				(path "/e447b28f-c2ac-4923-9678-16831d5b7ae9/14695e2c-744a-4251-8a70-014f333efa9c"
-					(reference "R16")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -2227,7 +2227,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3af812e-e9fc-42ed-a1d6-8d2a29ebf50b")
-		(property "Reference" "R3"
+		(property "Reference" "R14"
 			(at 101.6 49.5299 0)
 			(effects
 				(font
@@ -2281,7 +2281,7 @@
 		(instances
 			(project "Master of Dungeons Multilayer"
 				(path "/e447b28f-c2ac-4923-9678-16831d5b7ae9/14695e2c-744a-4251-8a70-014f333efa9c"
-					(reference "R3")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -2437,7 +2437,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4e4b435-37ed-4993-b62c-fe13dcf5da0c")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR059"
 			(at 99.06 100.33 0)
 			(effects
 				(font
@@ -2487,7 +2487,7 @@
 		(instances
 			(project "Master of Dungeons Multilayer"
 				(path "/e447b28f-c2ac-4923-9678-16831d5b7ae9/14695e2c-744a-4251-8a70-014f333efa9c"
-					(reference "#PWR072")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -2503,7 +2503,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8bb64b9-6e2b-4f3b-b9c1-593afc5a8e83")
-		(property "Reference" "R14"
+		(property "Reference" "R15"
 			(at 101.6 82.5499 0)
 			(effects
 				(font
@@ -2557,7 +2557,7 @@
 		(instances
 			(project "Master of Dungeons Multilayer"
 				(path "/e447b28f-c2ac-4923-9678-16831d5b7ae9/14695e2c-744a-4251-8a70-014f333efa9c"
-					(reference "R14")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -2573,7 +2573,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f38eb405-98bb-44fa-967c-f998dcc4b6c8")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR057"
 			(at 99.06 33.02 0)
 			(effects
 				(font
@@ -2623,7 +2623,7 @@
 		(instances
 			(project "Master of Dungeons Multilayer"
 				(path "/e447b28f-c2ac-4923-9678-16831d5b7ae9/14695e2c-744a-4251-8a70-014f333efa9c"
-					(reference "#PWR040")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
