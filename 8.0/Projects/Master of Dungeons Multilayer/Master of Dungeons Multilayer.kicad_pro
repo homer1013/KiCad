@@ -608,6 +608,10 @@
     [
       "69c497f5-faba-4d88-8d71-57d6ab81a6aa",
       "Dimmers"
+    ],
+    [
+      "0e76cae4-f6ab-4c34-8264-dd3d5f12d2e2",
+      "Power"
     ]
   ],
   "text_variables": {}
