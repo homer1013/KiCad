@@ -48,4 +48,16 @@ K
 F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/db7fced084129088ac0abad969ba55b1.pdf
 $ENDCMP
 #
+$CMP TPA3136D2PWP
+D Audio Amp Speaker 1-CH Mono/2-CH Stereo 10W Class-D 28-Pin HTSSOP EP Tube
+K
+F http://www.ti.com/lit/ds/symlink/tpa3136d2.pdf
+$ENDCMP
+#
+$CMP BLM21PG600SN1D
+D Murata Ferrite Bead (Chip Ferrite Bead), 2 x 1.25 x 0.85mm (805), 60 impedance at 100 MHz
+K
+F https://www.murata.com/en-us/products/productdetail?partno=BLM21PG600SN1%23
+$ENDCMP
+#
 #End Doc Library
